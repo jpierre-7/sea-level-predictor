@@ -10,7 +10,7 @@ def draw_plot():
     plt.scatter(df['Year'], df['CSIRO Adjusted Sea Level'], color='blue', alpha=0.5, label='Actual Data')
     
     plt.xlabel('Year')
-    plt.ylabel('CSIRO Adjusted Sea Level (mm)')
+    plt.ylabel('CSIRO Adjusted Sea Level')
     plt.title('CSIRO Adjusted Sea Level Over Time')    
     
 
